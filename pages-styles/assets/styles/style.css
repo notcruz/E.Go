@@ -43,6 +43,10 @@ body {
   margin-top: 15px;
 }
 
+img {
+  width: 55%;
+  height: auto;
+}
 /*
 .test-button {
   background: lime;
