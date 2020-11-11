@@ -98,13 +98,34 @@ body {
 
 #map {
   display: block;
-  height: 520px;
+  height: 730px;
   width: 400px;
   max-width: 625px;
-  max-height: 625px;
-  bottom: 40em;
+  max-height: 800px;
+  bottom: 50.5em;
   position: relative;
   border: 10px solid #222;
+}
+
+h2 {
+  bottom: 25em;
+  font-size: 40px;
+  position: relative;
+  margin-bottom: -3em;
+  z-index: 3;
+  font-weight: bold;
+}
+
+p {
+  bottom: 44.5em;
+  position: relative;
+  margin-bottom: -3em;
+  z-index: 2;
+  font-weight: bold;
+  font-size: 19.15px;
+  border-radius: 15px;
+  padding: 12px;
+  background-color: #222;
 }
 
 iframe {
