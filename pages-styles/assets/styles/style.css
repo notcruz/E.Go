@@ -142,16 +142,28 @@ h2 {
   background-color: #222;
 }
 
-.events {
-  bottom: 56em;
+.events-title {
+  bottom: 56.5em;
   position: relative;
   font-weight: bold;
   font-size: 15px;
   width: 350px;
-  height: 200px;
+  height: 175px;
   border-radius: 25px;
   border: 5px solid #71a55b;
   padding: 10px;
+}
+
+.events-message {
+  font-size: 15px;
+  margin-top: 10px;
+  z-index: 2;
+}
+
+.events-location {
+  font-size: 25px;
+  margin-top: 30px;
+  z-index: 2;
 }
 
 iframe {
@@ -160,7 +172,7 @@ iframe {
   width: 415px;
   max-width: 625px;
   max-height: 700px;
-  bottom: 52em;
+  bottom: 53em;
   position: relative;
   border: 10px solid #222;
 }
