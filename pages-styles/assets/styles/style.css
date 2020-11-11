@@ -98,10 +98,11 @@ body {
 
 #map {
   display: block;
-  margin: 0 auto 0 auto;
-  height: 625px;
+  height: 520px;
   width: 400px;
-  bottom: 50em;
+  max-width: 625px;
+  max-height: 625px;
+  bottom: 40em;
   position: relative;
   border: 10px solid #222;
 }
