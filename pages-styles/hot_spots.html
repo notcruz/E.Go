@@ -9,13 +9,18 @@
     <title>E. Go / Hotspots</title>
 
   </head>
-  <body>
-    <div class="page">
-      <h1>Hotspots Page</h1>
-      <a href="../index.html" target="_self" class="arrival-button"> Return To Arrival Page </a>
-      <img src="iPhone_Completed.png" alt="iPhone">
-      
-    </div>
-  </body>
-  
+    <body>
+      <div class="page">
+        <h1>Hotspots Page</h1>
+          <a href="../index.html" target="_self" class="arrival-button"> Return To Arrival Page </a>
+          <a href="second_main_menu.html" target="_self" class="arrow-button"><img src='button.png'></a>
+        <img src="iPhone_Completed.png" alt="iPhone">
+        </div>
+        <div id="map">
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE&callback=initMap&libraries=&v=weekly" defer></script>
+            <link rel="stylesheet" type="text/css" href="assets/styles/style.css" />
+          <script src="./index.js"></script>
+      </div>
+    </body>
+  </head>
 </html>
