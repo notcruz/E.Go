@@ -23,16 +23,86 @@ body {
   min-height: 100vh;
 }
 
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
 .main-menu-button {
-  background: white;
-  color: black;
+  background: #222;
+  color: white;
   padding: 15px 30px;
   border-radius: 7px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: initial;
+  position: relative;
   margin-top: 15px;
 }
 
+.main-menu-button:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: white;
+  transition: width 0.8s ease 0s, left 0.8s ease 0s;
+  width: 0;
+}
+
+.main-menu-button:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+.arrival-button {
+  background: #222;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 1px;
+  text-decoration: none;
+  font-weight: initial;
+  position: absolute;
+  top: 20px;
+}
+
+.arrival-button:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: white;
+  transition: width 0.8s ease 0s, left 0.8s ease 0s;
+  width: 0;
+}
+
+.arrival-button:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+img {
+  max-width:750px;
+}
+
+/*
 .arrival-button {
   background: white;
   color: black;
@@ -43,11 +113,6 @@ body {
   margin-top: 15px;
 }
 
-img {
-  width: 55%;
-  height: auto;
-}
-/*
 .test-button {
   background: lime;
   color: white;
