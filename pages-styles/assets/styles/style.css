@@ -26,6 +26,12 @@ body {
   position: relative;
 }
 
+.registration-jump {
+  background:none;
+  border: none;
+
+}
+
 .main-menu-button {
   background: #222;
   color: white;
@@ -84,13 +90,24 @@ body {
   left: 0; 
 }
 
-.arrow-button{
+.arrow-button {
   display: block;
-  margin-top: -40px;
+  margin-top: -39px;
   margin-bottom: 20px;
-  width: 2.5em;
-  bottom: -155px;
+  width: 2em;
+  bottom: -150px;
   left: -175px;
+  position: relative;
+  z-index: 1;
+}
+
+.arrow-button-right {
+  display: block;
+  margin-top: -39px;
+  margin-bottom: 20px;
+  width: 2em;
+  bottom: -150px;
+  right: -175px;
   position: relative;
   z-index: 1;
 }
