@@ -101,8 +101,8 @@ body {
   width: 400px;
   max-width: 625px;
   max-height: 800px;
-  bottom: 50.5em;
-  position: relative;
+  bottom: 3.5em;
+  position: absolute;
   border: 10px solid #222;
 }
 
