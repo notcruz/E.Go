@@ -159,6 +159,26 @@ h2 {
   background-color: #222;
 }
 
+.main-menu-buttons{
+  color: white;
+  text-decoration: none;
+}
+
+
+.main-menu-options {
+  bottom: 30em;
+  position: relative;
+  margin-top: 5em;
+  margin-bottom: -3.75em;
+  z-index: 2;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 15px;
+  padding: 12px;
+  background-color: #222;
+  color: white;
+}
+
 .events-title {
   bottom: 56.5em;
   position: relative;
