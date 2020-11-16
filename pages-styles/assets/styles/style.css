@@ -112,6 +112,17 @@ body {
   z-index: 1;
 }
 
+.magnifier {
+  display: block;
+  margin-top: -39px;
+  margin-bottom: 20px;
+  width: 2.25em;
+  bottom: 55.1em;
+  right: -175px;
+  position: relative;
+  z-index: 1;
+}
+
 #map {
   display: block;
   height: 730px;
