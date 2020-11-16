@@ -179,6 +179,36 @@ h2 {
   background-color: #222;
 }
 
+::placeholder{
+  color: #aaaaaa;
+}
+
+
+.registration-fields input[type='text']{
+  z-index: 2;
+  height: 50px;
+  width: 300px;
+  margin-bottom: 40px;
+  position: relative;
+  top: -50em;
+  display: block;
+  text-align: center;
+  align-items: center;
+  background: white;
+  border-radius: 4px;
+  outline: none;
+  border: 2px solid white;
+  box-sizing: border-box;
+  color: #222222;
+  transition: .5s;
+}
+
+.registration-fields input[type='text']:focus{
+  position: relative;
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+
 .settings{
   bottom: 5em;
   position: relative;
@@ -203,7 +233,7 @@ h2 {
 
 
 .main-menu-options {
-  bottom: 30em;
+  bottom: 30.5em;
   position: relative;
   margin-top: 5em;
   margin-bottom: -3.75em;
