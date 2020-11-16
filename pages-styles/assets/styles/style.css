@@ -413,3 +413,13 @@ img {
 }
 
 
+ul {
+  bottom: 25.10em;
+  font-size: 40px;
+  margin-bottom: -3em;
+  margin-top: auto;
+  z-index: 3;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
