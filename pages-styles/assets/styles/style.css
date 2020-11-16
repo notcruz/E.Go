@@ -415,10 +415,9 @@ img {
 ul {
   bottom: 25.10em;
   font-size: 40px;
-  position: relative;
   margin-bottom: -3em;
   z-index: 3;
   font-weight: bold;
   text-align: center;
-  position: relative;
+  position: center;
 }
