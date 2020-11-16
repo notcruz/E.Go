@@ -16,6 +16,44 @@
           <a href="second_main_menu.html" target="_self" class="arrow-button"><img src='../button.png'></a>
         <img src="../iPhone_Completed.png" alt="iPhone">
       <h2>Leaderboards</h2>
+      <!-- Tab links -->
+      <div class="tab">
+        <button class="tablinks" onclick="openLeaderboard(event, 'Friends')">Friends</button>
+        <button class="tablinks" onclick="openLeaderboard(event, 'Local')">Local</button>
+        <button class="tablinks" onclick="openLeaderboard(event, 'National')">National</button>
+      </div>
+
+      <!-- Tab content -->
+      <div id="Friends" class="tabcontent">
+        <h3>Friends</h3>
+        <p>placeholder friends</p>
+      </div>
+
+      <div id="Local" class="tabcontent">
+        <h3>Local</h3>
+        <p>placeholder local</p>
+      </div>
+
+      <div id="National" class="tabcontent">`
+        <h3>National</h3>
+        <p>placeholder national</p>
+      </div>
+
+      <script>
+        function openLeaderboard(evt, leaderboardName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(leaderboardName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+      </script>
     </div>
   </body>
 </html>

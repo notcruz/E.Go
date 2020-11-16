@@ -1,5 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  bottom: 25.10em;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
 body {
   background: #222;
   color: white;
@@ -112,6 +144,36 @@ body {
   z-index: 1;
 }
 
+.magnifier {
+  display: block;
+  margin-top: -39px;
+  margin-bottom: 20px;
+  width: 2.25em;
+  bottom: 55.1em;
+  right: -175px;
+  position: relative;
+  z-index: 1;
+}
+
+.camera{
+  display: block;
+  margin-top: -39px;
+  margin-bottom: 20px;
+  width: 5em;
+  bottom: 10em;
+  position: relative;
+  z-index: 1;
+}
+
+.tutorial-icon {
+  display: block;
+  width: 3em;
+  right: -175px;
+  position: relative;
+  z-index: 2;
+  top: 9.5em;
+}
+
 #map {
   display: block;
   height: 730px;
@@ -159,14 +221,139 @@ h2 {
   background-color: #222;
 }
 
+::placeholder{
+  color: #aaaaaa;
+}
+
+.tutorial-paragraphs{
+  display: block;
+  width: 350px;
+  position: relative;
+  top: -42.5em;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 2em;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 30px;
+  background-color: #222;
+}
+
+.tutorial-started{
+  bottom: 28em;
+  position: relative;
+  /*
+  margin-top: 5em;
+  margin-bottom: -3.75em;
+  */
+  z-index: 2;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 15px;
+  padding: 12px;
+  background-color: #222;
+  color: white;
+  text-decoration: none;
+}
+
+.posting-settings {
+  display: block;
+  width: 220px;
+  position: relative;
+  top: -45em;
+  font-size: 20px;
+  margin-top: 2.5em;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 30px;
+  background-color: #222;
+  transition: .5s;
+}
+
+.posting-settings input[type='text']{
+  color: white;
+}
+
+.registration-fields input[type='text']{
+  z-index: 2;
+  height: 50px;
+  width: 300px;
+  margin-bottom: 40px;
+  position: relative;
+  top: -50em;
+  display: block;
+  text-align: center;
+  align-items: center;
+  background: white;
+  border-radius: 4px;
+  outline: none;
+  border: 2px solid white;
+  box-sizing: border-box;
+  color: #222222;
+  transition: .5s;
+}
+
+.registration-fields input[type='text']:focus{
+  position: relative;
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.settings-fields input[type='text']{
+  z-index: 2;
+  height: 50px;
+  width: 300px;
+  margin-bottom: 40px;
+  position: relative;
+  top: -52.5em;
+  display: block;
+  text-align: center;
+  align-items: center;
+  background: white;
+  border-radius: 4px;
+  outline: none;
+  border: 2px solid white;
+  box-sizing: border-box;
+  color: #222222;
+  transition: .5s;
+}
+
+.settings-fields input[type='text']:focus{
+  position: relative;
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.settings{
+  bottom: 28em;
+  position: relative;
+  /*
+  margin-top: 5em;
+  */
+  width: 250px;
+  margin-bottom: 20px;
+  z-index: 2;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 15px;
+  padding: 12px;
+  background-color: #222;
+  color: white;
+  text-decoration: none;
+}
+
 .main-menu-buttons{
+  display: block;
   color: white;
   text-decoration: none;
 }
 
 
 .main-menu-options {
-  bottom: 30em;
+  bottom: 30.5em;
   position: relative;
   margin-top: 5em;
   margin-bottom: -3.75em;
@@ -177,6 +364,8 @@ h2 {
   padding: 12px;
   background-color: #222;
   color: white;
+  transition: .5s;
+  width: 400px;
 }
 
 .events-title {
@@ -221,3 +410,5 @@ img {
   height: 100%;
   position: relative;
 }
+
+
