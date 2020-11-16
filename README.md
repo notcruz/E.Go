@@ -6,7 +6,7 @@ The E.Go application helps the environment through a fun and competitive way. Th
 
 The problem here is most people around the world are unaware about the negative impact they’re making on the environment. This app, while also spreading awareness, takes action on climate change by encouraging the user to pick up trash and to be rewarded for doing so. Automobiles create 33% of all U.S. air influence in toxic chemicals which in turn heats up the planet while also destroying the ecosystem. Eating the wrong types of food or too much of it leads to a massive depletion of our natural resources and can cause greenhouse gas emissions.
 
-### Built With
+### Built with the help of..
 * [W3Schools](https://www.w3schools.com/)
 * [Normalize.css](https://necolas.github.io/normalize.css/)
 * [Google Maps API](https://developers.google.com/maps/documentation)
