@@ -123,6 +123,15 @@ body {
   z-index: 1;
 }
 
+.tutorial-icon {
+  display: block;
+  width: 3em;
+  right: -175px;
+  position: relative;
+  z-index: 2;
+  top: 9.5em;
+}
+
 #map {
   display: block;
   height: 730px;
@@ -168,6 +177,23 @@ h2 {
   border-radius: 15px;
   padding: 12px;
   background-color: #222;
+}
+
+.settings{
+  bottom: 5em;
+  position: relative;
+  /*
+  margin-top: 5em;
+  margin-bottom: -3.75em;
+  */
+  z-index: 2;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 15px;
+  padding: 12px;
+  background-color: #222;
+  color: white;
+  text-decoration: none;
 }
 
 .main-menu-buttons{
