@@ -215,6 +215,37 @@ h2 {
   color: #aaaaaa;
 }
 
+.tutorial-paragraphs{
+  display: block;
+  width: 350px;
+  position: relative;
+  top: -42.5em;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 2em;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 30px;
+  background-color: #222;
+}
+
+.tutorial-started{
+  bottom: 28em;
+  position: relative;
+  /*
+  margin-top: 5em;
+  margin-bottom: -3.75em;
+  */
+  z-index: 2;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 15px;
+  padding: 12px;
+  background-color: #222;
+  color: white;
+  text-decoration: none;
+}
 
 .registration-fields input[type='text']{
   z-index: 2;
