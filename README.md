@@ -1,5 +1,5 @@
-[![MIT License][license-shield]][https://github.com/jc1831/E.Go/blob/main/LICENSE]
-[![Contributors][contributors-shield]][https://github.com/jc1831/E.Go/graphs/contributors]
+[![MIT License][https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square]][https://github.com/jc1831/E.Go/blob/main/LICENSE]
+[![Contributors][https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square]][https://github.com/jc1831/E.Go/graphs/contributors]
 
 ## E.Go
 
