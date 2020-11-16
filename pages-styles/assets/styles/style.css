@@ -272,13 +272,39 @@ h2 {
   box-shadow: 0 0 8px 0 dodgerblue;
 }
 
+.settings-fields input[type='text']{
+  z-index: 2;
+  height: 50px;
+  width: 300px;
+  margin-bottom: 40px;
+  position: relative;
+  top: -52.5em;
+  display: block;
+  text-align: center;
+  align-items: center;
+  background: white;
+  border-radius: 4px;
+  outline: none;
+  border: 2px solid white;
+  box-sizing: border-box;
+  color: #222222;
+  transition: .5s;
+}
+
+.settings-fields input[type='text']:focus{
+  position: relative;
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+
 .settings{
-  bottom: 5em;
+  bottom: 28em;
   position: relative;
   /*
   margin-top: 5em;
-  margin-bottom: -3.75em;
   */
+  width: 250px;
+  margin-bottom: 20px;
   z-index: 2;
   font-weight: bold;
   font-size: 30px;
@@ -307,6 +333,8 @@ h2 {
   padding: 12px;
   background-color: #222;
   color: white;
+  transition: .5s;
+  width: 400px;
 }
 
 .events-title {
