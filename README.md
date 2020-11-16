@@ -1,3 +1,6 @@
+[![MIT License][license-shield]][https://github.com/jc1831/E.Go/blob/main/LICENSE]
+[![Contributors][contributors-shield]][https://github.com/jc1831/E.Go/graphs/contributors]
+
 ## E.Go
 
 We, E. Go, seek to develop a social media network that focuses on tracking and persuading users to perform positive actions that will better help our environment. We accomplish this goal by rewarding users with points for positive actions, notifying users of events in which they can help the environment and informing them about the impact they had on the environment by deciding to perform a positive action. E.Go will motivate users by implementing a competitive and point system, in which users can compete against each other based on their performance. 
