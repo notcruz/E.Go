@@ -25,8 +25,16 @@
         <input type='text' placeholder="Update Username">
         <input type='text' placeholder="Update Password">
       </div>
-      <a href="./second_main_menu.html" class="settings">Save</a>
-      <a href="./main_menu.html" class="settings">Logout</a>
+      <a href="./second_main_menu.html" class="settings" style="background-color:#00e663;" onclick="saved()">Save</a>
+      <a href="./main_menu.html" class="settings" style="background-color: #ff5b4f;" onclick="logout()">Logout</a>
     </div>
+    <script>
+      function saved(){
+        alert('Account information updated!')
+      }
+      function logout(){
+        alert('You have been successfully logged out!')
+      }
+    </script>
   </body>
 </html>
