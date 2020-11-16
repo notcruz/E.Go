@@ -238,6 +238,7 @@ h2 {
   border-radius: 15px;
   padding: 30px;
   background-color: #222;
+  transition: .5s;
 }
 
 .tutorial-started{
