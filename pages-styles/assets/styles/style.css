@@ -3,6 +3,7 @@
 * {box-sizing:border-box}
 
 .slideshow-container {
+  width: 100%;
   max-width: 350px;
   position: relative;
   margin: auto;
@@ -44,7 +45,9 @@
 }
 
 .text {
-  color: black;
+  background-color: #222;
+  color: white;
+  font-weight: bold;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
