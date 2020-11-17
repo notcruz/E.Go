@@ -4,7 +4,20 @@
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
-  bottom: 25.10em;
+  
+  display: block;
+  width: 350px;
+  position: relative;
+  top: -42.5em;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 2em;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 30px;
+  transition: .5s;
+
 }
 
 .tab button {
