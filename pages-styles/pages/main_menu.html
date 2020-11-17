@@ -21,9 +21,14 @@
           <form action='./second_main_menu.html'>
             <input type='text' placeholder="Email">
             <input type='text' placeholder="Password">
-            <h2 style="margin-top: -6.5em; font-weight: lighter; font-size: 25px;"><a href='./second_main_menu.html' style='color: rgb(0, 191, 255); text-decoration: none;'>Login</a></h2>
+            <h2 style="margin-top: -6.5em; font-weight: lighter; font-size: 25px;"><a href='./second_main_menu.html' style='color: rgb(0, 191, 255); text-decoration: none;' onclick="login()">Login</a></h2>
           </form>
         </div>
       </div>
+      <script>
+        function login(){
+          alert('Successfully logged in!')
+        }
+      </script>
   </body>
 </html>
