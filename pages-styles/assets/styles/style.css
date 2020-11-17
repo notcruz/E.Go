@@ -43,6 +43,18 @@
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+
+
+  width: 350px;
+  position: relative;
+  top: -42.5em;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 2em;
+  font-weight: bold;
+  border-radius: 15px;
+  transition: .5s;
 }
 
 body {
